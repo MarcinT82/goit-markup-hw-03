@@ -1,0 +1,235 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: #212121;
+}
+:root {
+  --brand-color: #2196f3;
+  --white: #ffffff;
+  --grey: #757575;
+  --black: #000000;
+  --less-black: #2f303a;
+  --white-grey: rgba(255, 255, 255, 0.6);
+  --less-white: #f5f4fa;
+}
+.background-header {
+  background-color: var(--white);
+}
+.logotype-webstudio-header {
+  text-decoration: inherit;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+.logotype-webstudio-header:hover {
+  color: none;
+}
+.logotype-web {
+  color: var(--brand-color);
+}
+.first-section-index {
+  background-color: var(--less-black);
+}
+.first-section-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.second-section-haeding {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.second-section-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.second-section-second-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 10px 41px 10px 41px;
+}
+.third-section {
+  background-color: var(--less-white);
+}
+.third-section-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 10px 41px 10px 41px;
+}
+.third-section-heading-text {
+  width: 72px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.third-section-job-titles {
+  width: 87px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+.button-order {
+  background: var(--brand-color);
+  color: var(--white);
+  cursor: pointer;
+  font-family: 'roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: none;
+}
+.button-order:hover,
+.button-order:focus {
+  color: none;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.links {
+  text-decoration: inherit;
+}
+.link-portfolio {
+  color: var(--brand-color);
+}
+.link-index {
+  color: var(--brand-color);
+}
+.link-contact-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.buttons:hover,
+.buttons:focus {
+  background-color: var(--brand-color);
+  color: var(--white);
+}
+.links:hover,
+.links:focus {
+  color: var(--brand-color);
+}
+.buttons {
+  cursor: pointer;
+  border: none;
+}
+.button-all {
+  background: var(--less-white);
+}
+.button-pages {
+  background-color: var(--less-white);
+}
+.button-aplications {
+  background-color: var(--less-white);
+}
+.button-design {
+  background-color: var(--less-white);
+}
+.button-marketing {
+  background-color: var(--less-white);
+}
+.projects {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-sections {
+  color: var(--grey);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+.background-footer {
+  background-color: var(--less-black);
+}
+.logotype-webstudio-footer {
+  text-decoration: inherit;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.logotype-webstudio-footer:hover {
+  color: none;
+}
+.address {
+  color: var(--white);
+  font-family: 'Roboto';
+  font-style: normal;
+  left: 215px;
+  top: 1739px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.link-contact-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-grey);
+}
+.dots {
+  list-style: none;
+}
