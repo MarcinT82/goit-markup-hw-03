@@ -1,6 +1,8 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 :root {
   --brand-color: #2196f3;
@@ -10,6 +12,7 @@ body {
   --less-black: #2f303a;
   --white-grey: rgba(255, 255, 255, 0.6);
   --less-white: #f5f4fa;
+  --thin-line: #ececec;
 }
 .background-header {
   background-color: var(--white);
@@ -18,10 +21,11 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 0px;
+  border: 1px solid var(--thin-line);
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
 }
 .logo-navigation {
   display: flex;
@@ -264,6 +268,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.display-three {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
