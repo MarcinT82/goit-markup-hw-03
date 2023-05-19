@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
 }
 :root {
@@ -14,15 +14,33 @@ body {
 .background-header {
   background-color: var(--white);
 }
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-navigation {
+  display: flex;
+}
+.navigation-contact {
+  display: flex;
+}
+.navigation {
+  display: flex;
+}
+.contact-items {
+  display: flex;
+}
 .logotype-webstudio-header {
   text-decoration: inherit;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--black);
+  padding: 10px;
 }
 .logotype-webstudio-header:hover {
   color: none;
@@ -34,7 +52,7 @@ body {
   background-color: var(--less-black);
 }
 .first-section-text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -45,7 +63,7 @@ body {
   color: var(--white);
 }
 .second-section-haeding {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -54,7 +72,7 @@ body {
   text-transform: uppercase;
 }
 .second-section-text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -63,7 +81,7 @@ body {
   color: var(--grey);
 }
 .second-section-second-text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -76,7 +94,7 @@ body {
   background-color: var(--less-white);
 }
 .third-section-heading {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -87,7 +105,7 @@ body {
 }
 .third-section-heading-text {
   width: 72px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -97,7 +115,7 @@ body {
 }
 .third-section-job-titles {
   width: 87px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -110,7 +128,7 @@ body {
   background: var(--brand-color);
   color: var(--white);
   cursor: pointer;
-  font-family: 'roboto';
+  font-family: "roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.6;
@@ -123,6 +141,9 @@ body {
 .button-order:focus {
   color: none;
 }
+.contact {
+  padding: 10px;
+}
 .link {
   font-style: normal;
   font-weight: 500;
@@ -130,6 +151,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  padding: 5px;
 }
 .links {
   text-decoration: inherit;
@@ -141,7 +163,7 @@ body {
   color: var(--brand-color);
 }
 .link-contact-header {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -178,7 +200,7 @@ body {
   background-color: var(--less-white);
 }
 .projects {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -187,7 +209,7 @@ body {
 }
 .project-sections {
   color: var(--grey);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -199,7 +221,7 @@ body {
 }
 .logotype-webstudio-footer {
   text-decoration: inherit;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -212,7 +234,7 @@ body {
 }
 .address {
   color: var(--white);
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   left: 215px;
   top: 1739px;
@@ -222,7 +244,7 @@ body {
   letter-spacing: 0.03em;
 }
 .link-contact-footer {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -232,4 +254,11 @@ body {
 }
 .dots {
   list-style: none;
+}
+.display {
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+  padding: 94px;
 }

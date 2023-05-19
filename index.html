@@ -18,43 +18,54 @@
     />
   </head>
   <body>
-    <header class="background-header">
-      <a class="logotype-webstudio-header" href="#"
-        ><span class="logotype-web">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="dots">
-          <li>
-            <a class="link link-index links" href="./index.html">Agencja</a>
-          </li>
-          <li>
-            <a class="link links" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="link links" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="links link-contact-header" href="mailto:info@example.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="links link-contact-header" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+    <header class="background-header container">
+      <div class="logo-navigation">
+        <a class="logotype-webstudio-header" href="#"
+          ><span class="logotype-web">Web</span>Studio</a
+        >
+    
+          <nav>
+            <ul class="dots navigation">
+              <li>
+                <a class="link link-index links" href="./index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="link links" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="link links" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="dots contact-items">
+            <li>
+              <a
+                class="links link-contact-header contact"
+                href="mailto:info@example.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a
+                class="links link-contact-header contact"
+                href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
+
     <main>
-      <section class="first-section-index">
+      <section class="section first-section-index">
         <h1 class="first-section-text">
           EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
         </h1>
         <button class="button-order" type="button">Zamów usługę</button>
       </section>
-      <section>
-        <ul class="dots">
+      <section class="section">
+        <ul class="dots display">
           <li>
             <h4 class="second-section-haeding">LOREM IPSUM</h4>
             <p class="second-section-text">
@@ -86,7 +97,7 @@
           </li>
         </ul>
         <h2 class="second-section-second-text">Czym się zajmujemy</h2>
-        <ul class="dots">
+        <ul class="dots display">
           <li>
             <img
               src="images/img1.jpg"
@@ -113,66 +124,68 @@
           </li>
         </ul>
       </section>
-      <section class="third-section">
+      <section class="section third-section">
         <h2 class="third-section-heading">Nasz zespół</h2>
-        <ul class="dots">
-          <li>
-            <figure>
-              <img
-                src="images/img4.jpg"
-                alt="John Doe.Product Designer"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h4 class="third-section-heading-text">John Doe</h4>
-                <p class="third-section-job-titles">Product Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/img5.jpg"
-                alt="Barbara Doe.Frontend Developer"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h4 class="third-section-heading-text">Kate Doe</h4>
-                <p class="third-section-job-titles">Frontend Developer</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/img6.jpg"
-                alt="John Doe.Marketing"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h4 class="third-section-heading-text">John Doe</h4>
-                <p class="third-section-job-titles">Marketing</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src="images/img7.jpg"
-                alt="John Doe.UI Designer"
-                width="370"
-                height="294"
-              />
-              <figcaption>
-                <h4 class="third-section-heading-text">John Doe</h4>
-                <p class="third-section-job-titles">UI Designer</p>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
+        <div class="display">
+          <ul class="dots">
+            <li>
+              <figure>
+                <img
+                  src="images/img4.jpg"
+                  alt="John Doe.Product Designer"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <h4 class="third-section-heading-text">John Doe</h4>
+                  <p class="third-section-job-titles">Product Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img5.jpg"
+                  alt="Barbara Doe.Frontend Developer"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <h4 class="third-section-heading-text">Kate Doe</h4>
+                  <p class="third-section-job-titles">Frontend Developer</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img6.jpg"
+                  alt="John Doe.Marketing"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <h4 class="third-section-heading-text">John Doe</h4>
+                  <p class="third-section-job-titles">Marketing</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img
+                  src="images/img7.jpg"
+                  alt="John Doe.UI Designer"
+                  width="370"
+                  height="294"
+                />
+                <figcaption>
+                  <h4 class="third-section-heading-text">John Doe</h4>
+                  <p class="third-section-job-titles">UI Designer</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="background-footer">
