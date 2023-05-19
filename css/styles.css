@@ -14,10 +14,14 @@ body {
 .background-header {
   background-color: var(--white);
 }
-.container {
+.header-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 .logo-navigation {
   display: flex;
@@ -62,6 +66,7 @@ body {
   text-transform: uppercase;
   color: var(--white);
 }
+
 .second-section-haeding {
   font-family: "Roboto";
   font-style: normal;
@@ -257,7 +262,7 @@ body {
 }
 .display {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .section {
   padding: 94px;
