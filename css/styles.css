@@ -69,7 +69,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
-  margin: auto;
+  margin: 0 auto;
+  width: 696px;
 }
 .blue-button {
   display: flex;
@@ -77,6 +78,7 @@ body {
 }
 .white-text {
   display: flex;
+  width: 1000px;
 }
 .second-section-haeding {
   font-family: "Roboto";
@@ -154,6 +156,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   border: none;
+  width: 200px;
 }
 .button-order:hover,
 .button-order:focus {
@@ -277,10 +280,6 @@ body {
 .dots {
   list-style: none;
 }
-.display {
-  display: flex;
-  justify-content: center;
-}
 .display-three {
   display: flex;
   justify-content: center;
@@ -289,9 +288,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.container-first-section {
-}
-
 .display-lorem {
   display: flex;
   justify-content: space-between;
@@ -352,4 +348,40 @@ body {
 }
 .bottom-line p {
   margin: 0 auto;
+}
+.section-lorem {
+  padding-bottom: 50px;
+}
+.team img {
+  max-width: 100%;
+}
+.display {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.name-title p {
+  width: 147px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.name-title h4 {
+  width: 72px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+.name-title {
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  border-top: 0;
+}
+.team {
+  margin: 0;
+  padding: 0;
+}
+.team-members {
 }
