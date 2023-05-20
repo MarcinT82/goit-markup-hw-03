@@ -121,7 +121,8 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 10px 41px 10px 41px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .third-section-heading-text {
   width: 72px;
@@ -157,6 +158,8 @@ body {
   letter-spacing: 0.06em;
   border: none;
   width: 200px;
+  border-radius: 4px;
+  padding: 10px;
 }
 .button-order:hover,
 .button-order:focus {
@@ -204,21 +207,32 @@ body {
 .buttons {
   cursor: pointer;
   border: none;
+  padding: 10px;
 }
 .button-all {
   background: var(--less-white);
+  width: 121px;
+  border-radius: 4px;
 }
 .button-pages {
   background-color: var(--less-white);
+  width: 93px;
+  border-radius: 4px;
 }
 .button-aplications {
   background-color: var(--less-white);
+  width: 114px;
+  border-radius: 4px;
 }
 .button-design {
   background-color: var(--less-white);
+  width: 91px;
+  border-radius: 4px;
 }
 .button-marketing {
   background-color: var(--less-white);
+  width: 121px;
+  border-radius: 4px;
 }
 .projects {
   font-family: "Roboto";
@@ -313,6 +327,7 @@ body {
   display: flex;
   padding: 70px 20px 30px;
   justify-content: center;
+  gap: 10px;
 }
 .services {
   padding: 0;
@@ -358,7 +373,6 @@ body {
 .display {
   display: flex;
   justify-content: center;
-  gap: 10px;
 }
 .name-title p {
   width: 147px;
@@ -382,6 +396,4 @@ body {
 .team {
   margin: 0;
   padding: 0;
-}
-.team-members {
 }
