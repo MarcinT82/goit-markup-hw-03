@@ -86,6 +86,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  width: 270px;
 }
 .second-section-text {
   font-family: "Roboto";
@@ -259,6 +260,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 246px;
 }
 .link-contact-footer {
   font-family: "Roboto";
@@ -268,6 +270,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-grey);
+  width: 231px;
 }
 .dots {
   list-style: none;
@@ -290,4 +293,21 @@ body {
 .display-lorem {
   display: flex;
   justify-content: space-between;
+}
+.image {
+  padding: 10px;
+}
+.footer-container {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.home-address {
+  padding: 40px 100px 20px 100px;
+  margin-right: auto;
+}
+.address-footer-links {
+  padding: 10px 100px 10px 100px;
+  margin-right: 0;
 }
