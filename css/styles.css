@@ -304,10 +304,10 @@ body {
   flex-direction: column;
 }
 .home-address {
-  padding: 40px 100px 20px 100px;
+  padding: 40px 150px 20px 150px;
   margin-right: auto;
 }
 .address-footer-links {
-  padding: 10px 100px 10px 100px;
+  padding: 10px 150px 10px 150px;
   margin-right: 0;
 }
