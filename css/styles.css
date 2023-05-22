@@ -1,8 +1,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #212121;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 :root {
   --brand-color: #2196f3;
@@ -23,9 +21,11 @@ body {
   align-items: center;
   margin-bottom: 0px;
   border-bottom: 1px solid var(--thin-line);
+  height: 80px;
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .logo-navigation {
   display: flex;
@@ -372,7 +372,7 @@ body {
 }
 .display {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 .name-title p {
   width: 147px;
@@ -399,4 +399,7 @@ body {
 }
 .team img {
   display: block;
+}
+figure {
+  margin: 0;
 }
