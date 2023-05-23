@@ -14,19 +14,20 @@ body {
 }
 .background-header {
   background-color: var(--white);
+  border-bottom: 1px solid var(--thin-line);
 }
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 0px;
-  border-bottom: 1px solid var(--thin-line);
   height: 80px;
   width: 1200px;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 0;
 }
 .logo-navigation {
   display: flex;
@@ -297,7 +298,8 @@ body {
 }
 .display-three {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding-left: 0;
 }
 .section {
   padding-top: 94px;
@@ -306,6 +308,7 @@ body {
 .display-lorem {
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
 }
 .image {
   padding: 10px;
@@ -315,6 +318,7 @@ body {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  padding-left: 0;
 }
 .home-address {
   padding: 40px 150px 20px 150px;
@@ -329,16 +333,17 @@ body {
   padding: 70px 20px 30px;
   justify-content: center;
   gap: 10px;
+  margin: 0;
 }
 .services {
-  padding: 0;
+  padding-left: 0;
   margin: 0;
 }
 .cards {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
   padding: 0;
   list-style: none;
 }
@@ -374,6 +379,7 @@ body {
 .display {
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
 }
 .name-title p {
   width: 147px;
@@ -403,4 +409,7 @@ body {
 }
 figure {
   margin: 0;
+}
+.team-container {
+  padding-left: 0;
 }
